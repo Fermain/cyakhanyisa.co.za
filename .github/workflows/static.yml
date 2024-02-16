@@ -27,7 +27,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20' # or another version if you prefer
+          node-version: '20'
 
       - name: Install Dependencies
         run: npm install
@@ -35,8 +35,6 @@ jobs:
       - name: Build SvelteKit Project
         run: npm run build
 
-      # Assuming your SvelteKit project's build output goes to the "build" directory
-      # Adjust the 'path' if your output directory is different, e.g., "dist"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
