@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	export const prerender = true;
 </script>
 
 <div class="min-h-screen flex flex-col">
@@ -41,7 +42,7 @@
 					WhatsApp
 				</a>
 				<a
-					href="mailto:contact@example.com"
+					href="mailto:thokozanomazibuko@gmail.com"
 					class="inline-block bg-orange text-white font-bold py-3 px-6 rounded-lg hover:bg-brown transition-colors duration-300 ease-in-out"
 				>
 					Email Us
