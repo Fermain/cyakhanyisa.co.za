@@ -5,17 +5,20 @@
 
 <div class="min-h-screen flex flex-col">
 	<header>
-		<div class="container mx-auto p-4 flex items-center gap-4">
-			<img src="/icon.png" alt="" class="w-24 max-w-[6rem]" />
-			<div>
-				<h1 class="text-2xl font-bold text-center flex items-center">
-					<span class="font-protest"
-						>Cyakhanyisa <span class="inline md:hidden">MWC</span>
-						<span class="hidden md:inline">Multipurpose Worker's Cooperative</span></span
-					>
-				</h1>
-				<p><i>We make it brighter</i></p>
+		<div class="container mx-auto p-4 flex justify-between items-center gap-4">
+			<div class="flex items-center gap-4">
+				<img src="/icon.png" alt="" class="w-24 max-w-[6rem]" />
+				<div>
+					<h1 class="text-2xl font-bold text-left flex items-center">
+						<span class="font-protest"
+							>Cyakhanyisa <span class="inline md:hidden">MWC</span>
+							<span class="hidden md:inline">Multipurpose Worker's Cooperative</span></span
+						>
+					</h1>
+					<p><i>We make it brighter</i></p>
+				</div>
 			</div>
+			<a href="#contact" class="block text-center bg-orange hover:bg-brown text-white font-bold py-4 px-8 rounded-lg text-lg transition duration-150 ease-in-out transform hover:scale-105">Contact</a>
 		</div>
 	</header>
 
